@@ -676,7 +676,7 @@
           <axis xyz="1 0 0"/>
           <origin
             rpy="0 0 0"
-            xyz="0.027575 0 0"/>
+            xyz="0.020 0 0.02"/>
           <parent
             link="$(arg robot_name)/fingers_link"/>
           <child

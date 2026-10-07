@@ -208,6 +208,7 @@ def launch_setup(context, *args, **kwargs):
             planning_scene_monitor_parameters,
             joint_limits,
             sensor_parameters,
+            {'capabilities': 'move_group/ExecuteTaskSolutionCapability'},
         ],
         remappings=remappings,
         output={'both': 'screen'},
